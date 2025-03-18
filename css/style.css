@@ -1,0 +1,280 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../img/landing-background.jpg') no-repeat center center/cover;
+}
+
+
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.logo {
+    width: 80vw; 
+    max-width: 900px; 
+    animation: float 3s infinite ease-in-out;
+
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(10px); }
+    100% { transform: translateY(0px); }
+}
+
+
+.play-button {
+    width: 350px; 
+    max-width: 90%;
+    margin-top: -20px; 
+    transition: 0.3s;
+}
+
+.play-button:hover {
+    transform: scale(1.1);
+}
+
+/* dress up page */
+body {
+    font-family: Arial, sans-serif;
+    background: url('../img/dressup-background.png') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.dressup-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    max-width: 1200px;
+}
+
+.customization-box {
+    background: rgba(72, 0, 130, 0.85); 
+    padding: 40px;
+    border-radius: 20px;
+    color: white;
+    width: 45%;  
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    margin-left: -50px; 
+}
+
+.outfit-selection {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+/* Outfit Items (Hat, Glasses, Scarf, etc.) */
+.outfit-option {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.outfit-option:hover {
+    transform: scale(1.1);
+}
+
+.vip-lock {
+    font-size: 1rem;
+    color: #ffcc00;
+    margin-top: 10px;
+}
+
+.continue-btn {
+    display: inline-block;
+    background: crimson;
+    padding: 12px 20px;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.continue-btn:hover {
+    background: darkred;
+}
+
+.seal-avatar {
+    width: 50%;
+    max-width: 450px;
+    margin-left: 30px; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('../img/signup-background.png') no-repeat center center/cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.signup-container {
+    background: rgba(72, 0, 130, 0.85); 
+    padding: 30px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 400px;
+    color: white;
+    margin-right: 30px; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 1.8rem;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 5px;
+    font-size: 1rem;
+}
+
+.input-note {
+    font-size: 0.8rem;
+    font-style: italic;
+    color: #dddddd;
+    margin: 3px 0 10px;
+}
+
+.birthday-select {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+select {
+    width: 48%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+}
+
+.agreement-box {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    margin-top: 20px;
+}
+
+.agreement-box strong {
+    font-size: 1rem;
+}
+
+.terms-text {
+    font-size: 0.9rem;
+    margin-top: 20px;
+}
+
+.signup-btn {
+    display: inline-block;
+    background: darkred;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.signup-btn:hover {
+    background: rgb(150, 0, 0);
+    transform: scale(1.05);
+}
+
+.home-page {
+    background: url('../img/iceberg-background.avif') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.navbar {
+    position: fixed;
+    top: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.nav-btn {
+    background: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.nav-btn:hover {
+    background: lightgray;
+}
+
+.sign-out {
+    background: red;
+    color: white;
+}
+
+.sign-out:hover {
+    background: darkred;
+}
+
+.game-container {
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    cursor: pointer;
+}
+
+.seal-avatar {
+    position: absolute;
+    width: 120px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: left 0.8s ease-in-out, top 0.8s ease-in-out;
+}
